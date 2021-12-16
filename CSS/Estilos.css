@@ -213,6 +213,10 @@
         border-radius: 50%;
         margin: 3%;
     }
+
+    .contenido-texto-card p{
+        text-align: justify;
+    }
     
     .rol-ext {
         background-color: #1f59a5;
@@ -406,4 +410,11 @@
         align-items: center;
     }
 
+
+    .hover-galeria a{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-decoration: none;
+    }
     

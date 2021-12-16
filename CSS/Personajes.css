@@ -91,6 +91,7 @@ header .textos-header {
 .titulodef {
     text-align: center;
     padding-bottom: 25px;
+    color: #fff;
 }
 
 .imgmapa {
@@ -99,6 +100,15 @@ header .textos-header {
     border-radius: 15px;
     margin-right: 25px;
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.048) -6px -2px 16px 0px;
+}
+
+.contededor-definición{
+    background-color: #053d49;
+    padding: 2%;
+    border-radius: 3%;
+    color: #fff;
+    text-align: justify;
+    line-height: 150%;
 }
 
 
@@ -155,6 +165,12 @@ header .textos-header {
     border-radius: 50%;
     margin: 3%;
 }
+
+.contenido-texto-card p{
+    text-align: justify;
+    padding-right: 5%;
+}
+
 
 .rol-ext {
     background-color: #1f59a5;
@@ -236,6 +252,9 @@ footer {
         width: 90%;
         margin-top: 5%;
     }
+
+    
+
     .imgmapa {
         width: 90%;
         margin-bottom: 5%;
