@@ -222,6 +222,7 @@
     .rol-ext {
         background-color: #1f59a5;
         padding-bottom: 30px;
+        color: #fff;
     }
     
     .rol-cont {
@@ -233,6 +234,9 @@
     .rol-int {
         width: 28%;
         text-align: center;
+        background-color: rgba(0, 0, 0, 0.397);
+        padding: 3%;
+        border-radius: 3%;
     }
     
     .rol-int img {

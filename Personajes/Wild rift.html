@@ -39,7 +39,7 @@
             </section>
     </div>
     <section class="roles contenedor" id="Roles">
-        <h2 class="titulo">Personajes Peincipales</h2>
+        <h2 class="titulo">Personajes Principales</h2>
         <div class="cards">
             <div class="row">
                 <div class="col">
@@ -123,10 +123,10 @@
         </div>
     </section>
     <section class="rol-ext" id="otr_roles">
-        <div class="contenedor">
-            <div class=" " style="padding-left: 15%; padding-right: 15%; color:balck;">
+        <div class="contenedor_form">
+            <div class="formulario_card" style="padding-left: 15%; padding-right: 15%; color:balck;">
 
-                <h3 class="textoCentrado">Agregar Comentario</h3>
+                <h3 class="textoCentrado">Crea Una Card</h3>
 
                 <!--Inicio del formulario-->
                 <div style="color:black;">
@@ -152,17 +152,22 @@
                 <br>
 
                 <div>
-                    <button class="btn btn-sm btn-success" onclick="mostarAlert()"> Enviar</button>
+                    <button class="btn_enviar" onclick="mostarAlert()"> Enviar</button>
                 </div>
 
             </div>
 
 
-            <div>
-                <button id="btnCrearTarjeta" class="btn btn-primary btn-sm" onclick="fnCrearTarjetas()">Crear Comentario</button>
-                <br>
-                <div id="idTarjetas" class="row">
-
+            <div class="contenedor_crea">
+                <div class="row">
+                    <div class="col">
+                        <button id="btnCrearTarjeta" class="btn_crear" onclick="fnCrearTarjetas()">Crear Tarjeta</button>            
+                    </div>
+                    <div class="col">
+                        <div id="idTarjetas" >
+                    
+                        </div>
+                    </div>
                 </div>
 
             </div>

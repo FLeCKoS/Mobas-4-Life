@@ -290,3 +290,27 @@ footer {
 }
 
 
+.formulario_card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.contenedor_form {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.contenedor_crea{
+    display: flex;
+    justify-content: space-between;
+}
+
+#idTarjetas{
+    display: flex;
+    justify-content: space-between;
+}
