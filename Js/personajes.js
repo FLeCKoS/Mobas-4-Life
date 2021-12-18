@@ -3,15 +3,15 @@ var vEmail = "";
 var vTelefono = "";
 
 
-var obtenersrc = document.getElementById('osrc1'),
+/* var obtenersrc = document.getElementById('osrc1'),
     src = obtenersrc.getElementsByTagName('img')[0].src;
 
 /* alert(src); */
 
 //http://127.0.0.1:5500/IMG/Wild%20rift/Ahri_ChampThumb.jpg
 
-let textosrc = src;
-let result = textosrc.replace("http://127.0.0.1:5500","..");
+/*let textosrc = src;
+let result = textosrc.replace("http://127.0.0.1:5500",".."); */
 
 
 
