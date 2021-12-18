@@ -46,38 +46,42 @@
             <div class="row">
                 <div class="col">
                     <div class="card">
-                        <img src="../IMG/Arena of Valor/Airi.jpg" alt="Ahri">
+                        <img src="../IMG/Arena of Valor/Airi.jpg" alt="Ahri" id="Imagen_uno">
                         <div class="contenido-texto-card">
                             <h4>Airi</h4>
                             <p>Los dragones habitaban dentro del cuerpo de su descendiente más reciente, Airi la Kunoichi. Cada respiración de ella parecía exhibir el poder de los dragones.</p>
+                            <span class="btn_copiar" onclick="CopiarImagen_uno()" >Copiar Imagen</span>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="../IMG/Arena of Valor/Amili.jpg" alt="akali">
+                        <img src="../IMG/Arena of Valor/Amili.jpg" alt="akali" id="Imagen_dos">
                         <div class="contenido-texto-card">
                             <h4>Amily</h4>
                             <p>Amily es una traidora.En su última prueba, trabajó con otros tres candidatos y mató a más de diez supervisores, incluido el instructor.</p>
+                            <span class="btn_copiar" onclick="CopiarImagen_dos()" >Copiar Imagen</span>
                         </div>
                     </div>
                 </div>
 
                 <div class="col">
                     <div class="card">
-                        <img src="../IMG/Arena of Valor/Arthur.jpg" alt="Akshan">
+                        <img src="../IMG/Arena of Valor/Arthur.jpg" alt="Akshan" id="Imagen_tres">
                         <div class="contenido-texto-card">
                             <h4>Arthur</h4>
                             <p>Con la espada sagrada en su mano y la justicia en su corazón, Arthur fue el primer líder verdadero en la historia de la humanidad.</p>
+                            <span class="btn_copiar" onclick="CopiarImagen_tres()" >Copiar Imagen</span>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="../IMG/Arena of Valor/Batman.jpg" alt="alistar">
+                        <img src="../IMG/Arena of Valor/Batman.jpg" alt="alistar" id="Imagen_cuatro">
                         <div class="contenido-texto-card">
                             <h4>Batman</h4>
                             <p>Batman se ha convertido en un símbolo de la justicia oscura que se cierne sobre Gotham City.</p>
+                            <span class="btn_copiar" onclick="CopiarImagen_cuatro()" >Copiar Imagen</span>
                         </div>
                     </div>
                 </div>
@@ -86,37 +90,41 @@
             <div class="row">
                 <div class="col">
                     <div class="card">
-                        <img src="../IMG/Arena of Valor/Florentino.jpg" alt="amumu">
+                        <img src="../IMG/Arena of Valor/Florentino.jpg" alt="amumu" id="Imagen_cinco">
                         <div class="contenido-texto-card">
                             <h4>Florentino</h4>
                             <p>Como único heredero de la Casa del Perfume, las aventuras románticas de Florentino fueron tan conocidas como sus lujosos bailes.</p>
+                            <span class="btn_copiar" onclick="CopiarImagen_cinco()" >Copiar Imagen</span>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="../IMG/Arena of Valor/Ilumia.jpg" alt="annie">
+                        <img src="../IMG/Arena of Valor/Ilumia.jpg" alt="annie" id="Imagen_seis">
                         <div class="contenido-texto-card">
                             <h4>Ilumia</h4>
                             <p>Ilumia lo tenía todo: belleza, inteligencia, poder, gloria y fuerza. Así como Maloch representaba el poder oscuro, Ilumia era la encarnación de la luz. </p>
+                            <span class="btn_copiar" onclick="CopiarImagen_seis()" >Copiar Imagen</span>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="../IMG/Arena of Valor/Tulen.jpg" alt="ashe">
+                        <img src="../IMG/Arena of Valor/Tulen.jpg" alt="ashe" id="Imagen_siete">
                         <div class="contenido-texto-card">
                             <h4>Tulen</h4>
                             <p>Como un mago que inflige un gran daño de cerca, Tulen se mete en medio de la refriega y usa Lightning Strike para desatar el caos en sus enemigos.</p>
+                            <span class="btn_copiar" onclick="CopiarImagen_siete()" >Copiar Imagen</span>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="../IMG/Arena of Valor/Violet.jpg" alt="aurelionsol">
+                        <img src="../IMG/Arena of Valor/Violet.jpg" alt="aurelionsol" id="Imagen_ocho">
                         <div class="contenido-texto-card">
                             <h4>Violet</h4>
                             <p>"Mis disparos son los recordatorios de la amenaza de los vampiros".Violet saltó a la fama cazando cabezas de una nueva raza de vampiros llamados Princes.</p>
+                            <span class="btn_copiar" onclick="CopiarImagen_ocho()" >Copiar Imagen</span>
                         </div>
                     </div>
                 </div>
@@ -125,50 +133,56 @@
         </div>
     </section>
     <section class="rol-ext" id="otr_roles">
-        <div class="contenedor">
+        <div class="contenedor_form">
+            <div class="formulario_card" >
 
-            <div class=" " style="padding-left: 15%; padding-right: 15%; color:balck;">
-
-                <h3 class="textoCentrado">Agregar Comentario</h3>
+                <h2 class="textoCentrado">Crea Una Card:</h2>
 
                 <!--Inicio del formulario-->
-                <div style="color:black;">
+                <div style="margin: auto;">
                     <form>
-                        <div class="form-group">
-                            <label for="nombre">Nombres</label>
-                            <input class="form-control" id="nombre" type="text">
+                        <div class="imput_posi">
+                            <label for="nombre">Usuario</label>
+                            <input class="input_box" id="nombre" type="text">
                         </div>
 
-                        <div class="form-group">
+                        <div class="imput_posi">
                             <label for="email">Email</label>
-                            <input class="form-control" id="email" type="text">
+                            <input class="input_box" id="email" type="text">
                         </div>
 
-                        <div class="form-group">
+                        <div class="imput_posi">
                             <label for="telefono"> Comentario</label>
-                            <input class="form-control" id="telefono" type="text">
+                            <input class="input_box" id="telefono" type="text">
+                        </div>
+                        <div style="display: flex;justify-content: center;">
+                            <img src="https://cdn-icons.flaticon.com/png/512/3900/premium/3900742.png?token=exp=1639792013~hmac=661dc7cb3108ec9861a90db996a38d58" id="img_temp" alt="">
                         </div>
                     </form>
 
                 </div>
 
                 <br>
-
-                <div>
-                    <button class="btn btn-sm btn-success" onclick="mostarAlert()"> Enviar</button>
+                
+                <div style="padding: 5%; display: flex; justify-content: space-between">
+                    <a href="../Personajes/Arena of Valor.html" class="btn_refrescar">Refrescar</a> <button class="btn_enviar" onclick="mostarAlert()"> Enviar</button>  <button id="btnCrearTarjeta" class="btn_crear" onclick="fnCrearTarjetas()">Crear Tarjeta</button>
+                    
                 </div>
+                
+
+            </div>
+            
+
+
+            
+        </div>
+        <div class="">
+            <div class="row" id="idTarjetas" style="padding: 2%; display: flex; justify-content: space-evenly;">
+
 
             </div>
 
-
-            <div>
-                <button id="btnCrearTarjeta" class="btn btn-primary btn-sm" onclick="fnCrearTarjetas()">Crear Comentario</button>
-                <br>
-                <div id="idTarjetas" class="row">
-
-                </div>
-
-            </div>
+        </div>
     </section>
     </main>
     <footer>

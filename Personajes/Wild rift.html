@@ -8,6 +8,7 @@
     <title>Wild rift</title>
     <link rel="stylesheet" href="../CSS/Personajes.css">
     <link rel="shortcut icon" href="../IMG/logo.png" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js%22%3E"></script>
 
 
 </head>
@@ -43,39 +44,43 @@
         <div class="cards">
             <div class="row">
                 <div class="col">
-                    <div class="card">
-                        <img src="../IMG/Wild rift/Ahri_ChampThumb.jpg" alt="Ahri">
+                    <div class="card" id="osrc1">
+                        <img src="../IMG/Wild rift/Ahri_ChampThumb.jpg" alt="Ahri" id="Imagen_uno">
                         <div class="contenido-texto-card">
                             <h4>Ahri</h4>
                             <p>Ahri es una maga que tenderá a comportarse como un asesino AP. La runa clave Electrocutar es primordial en este campeón. Brutal, en Dominación, te otorgará una bonificación ofensiva al principio de la partida</p>
+                            <span class="btn_copiar" onclick="CopiarImagen_uno()" >Copiar Imagen</span>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
-                        <img src="../IMG/Wild rift/akali_champthumb.jpg" alt="akali">
+                    <div class="card" id="osrc">
+                        <img src="../IMG/Wild rift/akali_champthumb.jpg" alt="akali" id="Imagen_dos">
                         <div class="contenido-texto-card">
                             <h4>Akali</h4>
                             <p>La habilidad puede usarse también para chequear por enemigos en las malezas ya la invisibilidad previene que sea avistada por campeones enemigos</p>
+                            <span class="btn_copiar" onclick="CopiarImagen_dos()" >Copiar Imagen</span>
                         </div>
                     </div>
                 </div>
 
                 <div class="col">
-                    <div class="card">
-                        <img src="../IMG/Wild rift/Akshan_ChampThumb.jpg" alt="Akshan">
+                    <div class="card" id="osrc">
+                        <img src="../IMG/Wild rift/Akshan_ChampThumb.jpg" alt="Akshan" id="Imagen_tres">
                         <div class="contenido-texto-card">
                             <h4>Akshan</h4>
                             <p>Akshan es su nombre, y todo indica que será una especie de tirador que estará enfocado en la línea de medio con unas mecánicas relacionadas con su gancho y habilidades a la hora de moverse con él.</p>
+                            <span class="btn_copiar" onclick="CopiarImagen_tres()" >Copiar Imagen</span>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
-                        <img src="../IMG/Wild rift/alistar_champthumb.jpg" alt="alistar">
+                    <div class="card" id="osrc">
+                        <img src="../IMG/Wild rift/alistar_champthumb.jpg" alt="alistar" id="Imagen_cuatro">
                         <div class="contenido-texto-card">
                             <h4>Alistar</h4>
                             <p>Alistar carga su rugido al aturdir o desplazar a campeones enemigos o cuando los enemigos cercanos mueren. Cuando está cargado al máximo, se cura a sí mismo y a los campeones aliados cercanos.</p>
+                            <span class="btn_copiar" onclick="CopiarImagen_cuatro()" >Copiar Imagen</span>
                         </div>
                     </div>
                 </div>
@@ -83,38 +88,42 @@
 
             <div class="row">
                 <div class="col">
-                    <div class="card">
-                        <img src="../IMG/Wild rift/amumu_champthumb.jpg" alt="amumu">
+                    <div class="card" id="osrc">
+                        <img src="../IMG/Wild rift/amumu_champthumb.jpg" alt="amumu" id="Imagen_cinco">
                         <div class="contenido-texto-card">
                             <h4>Amumu</h4>
                             <p>Amumu es un jungler que tendrá que acertar sus vendas y activar su control de masas para ser efectivo. La runa clave Reverberacción es perfecta para él.</p>
+                            <span class="btn_copiar" onclick="CopiarImagen_cinco()" >Copiar Imagen</span>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="../IMG/Wild rift/annie_champthumb.jpg" alt="annie">
+                <div class="col" > 
+                    <div class="card" id="osrc">
+                        <img src="../IMG/Wild rift/annie_champthumb.jpg" alt="annie" id="Imagen_seis">
                         <div class="contenido-texto-card">
                             <h4>Annie</h4>
                             <p>Es la hija de la oscuridad, habilidad pasiva de annie, luego del 4to ataque ella aturdirá al enemigo.</p>
+                            <span class="btn_copiar" onclick="CopiarImagen_seis()" >Copiar Imagen</span>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
-                        <img src="../IMG/Wild rift/ashe_champthumb.jpg" alt="ashe">
+                    <div class="card" id="osrc">
+                        <img src="../IMG/Wild rift/ashe_champthumb.jpg" alt="ashe" id="Imagen_siete">
                         <div class="contenido-texto-card">
                             <h4>Ashe</h4>
                             <p>Ashe es un campeón de Tiradores que se juega principalmente en el carril inferior. Ashe ocupa el nivel B (Bot Lane) en la lista de niveles de campeones y es fácil de jugar según el estilo de juego.</p>
+                            <span class="btn_copiar" onclick="CopiarImagen_siete()" >Copiar Imagen</span>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
-                        <img src="../IMG/Wild rift/aurelionsol_champthumb.jpg" alt="aurelionsol">
+                    <div class="card" id="osrc">
+                        <img src="../IMG/Wild rift/aurelionsol_champthumb.jpg" alt="aurelionsol" id="Imagen_ocho">
                         <div class="contenido-texto-card">
                             <h4>Aurelionsol</h4>
                             <p>es uno de los campeones clásicos de League of Legends: Wild Rift y, por momentos, fue capaz de dominar el metajuego del carril central estableciéndose como una de las amenazas destacas de nuestra Tier List.</p>
+                            <span class="btn_copiar" onclick="CopiarImagen_ocho()" >Copiar Imagen</span>
                         </div>
                     </div>
                 </div>
@@ -124,53 +133,54 @@
     </section>
     <section class="rol-ext" id="otr_roles">
         <div class="contenedor_form">
-            <div class="formulario_card" style="padding-left: 15%; padding-right: 15%; color:balck;">
+            <div class="formulario_card" >
 
-                <h3 class="textoCentrado">Crea Una Card</h3>
+                <h2 class="textoCentrado">Crea Una Card:</h2>
 
                 <!--Inicio del formulario-->
-                <div style="color:black;">
+                <div style="margin: auto;">
                     <form>
-                        <div class="form-group">
-                            <label for="nombre">Nombres</label>
-                            <input class="form-control" id="nombre" type="text">
+                        <div class="imput_posi">
+                            <label for="nombre">Usuario</label>
+                            <input class="input_box" id="nombre" type="text">
                         </div>
 
-                        <div class="form-group">
+                        <div class="imput_posi">
                             <label for="email">Email</label>
-                            <input class="form-control" id="email" type="text">
+                            <input class="input_box" id="email" type="text">
                         </div>
 
-                        <div class="form-group">
+                        <div class="imput_posi">
                             <label for="telefono"> Comentario</label>
-                            <input class="form-control" id="telefono" type="text">
+                            <input class="input_box" id="telefono" type="text">
+                        </div>
+                        <div style="display: flex;justify-content: center;">
+                            <img src="https://cdn-icons.flaticon.com/png/512/3900/premium/3900742.png?token=exp=1639792013~hmac=661dc7cb3108ec9861a90db996a38d58" id="img_temp" alt="">
                         </div>
                     </form>
 
                 </div>
 
                 <br>
-
-                <div>
-                    <button class="btn_enviar" onclick="mostarAlert()"> Enviar</button>
-                </div>
-
-            </div>
-
-
-            <div class="contenedor_crea">
-                <div class="row">
-                    <div class="col">
-                        <button id="btnCrearTarjeta" class="btn_crear" onclick="fnCrearTarjetas()">Crear Tarjeta</button>            
-                    </div>
-                    <div class="col">
-                        <div id="idTarjetas" >
+                
+                <div style="padding: 5%; display: flex; justify-content: space-between">
+                    <a href="../Personajes/Wild rift.html" class="btn_refrescar">Refrescar</a> <button class="btn_enviar" onclick="mostarAlert()"> Enviar</button>  <button id="btnCrearTarjeta" class="btn_crear" onclick="fnCrearTarjetas()">Crear Tarjeta</button>
                     
-                        </div>
-                    </div>
                 </div>
+                
 
             </div>
+            
+
+
+            
+        </div>
+        <div class="">
+            <div class="row" id="idTarjetas" style="padding: 2%; display: flex; justify-content: space-evenly;">
+
+
+            </div>
+
         </div>
     </section>
     </main>
@@ -203,9 +213,8 @@
     <script src="../Js/personajes.js"></script>
     <script src="../jquery/jquery-3.5.1.slim.min.js "></script>
 
-
-
-
 </body>
+
+
 
 </html>

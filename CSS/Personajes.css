@@ -169,6 +169,7 @@ header .textos-header {
 .contenido-texto-card p{
     text-align: justify;
     padding-right: 5%;
+    margin-bottom: 3%;
 }
 
 
@@ -290,11 +291,21 @@ footer {
 }
 
 
+
+
 .formulario_card{
     display: flex;
     justify-content: center;
     flex-direction: column;
 
+}
+
+.formulario_card{
+    background-color: #053d49;
+    width: 50%;
+    height: 100%;
+    padding: 25px 0 20px 0;
+    border-radius: 5%;
 }
 
 .contenedor_form {
@@ -303,14 +314,126 @@ footer {
     max-width: 1000px;
     overflow: hidden;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    color: cornsilk;
 }
 
-.contenedor_crea{
-    display: flex;
-    justify-content: space-between;
+
+.textoCentrado{
+    text-align: start;
+    margin-bottom: 5%;
+    margin-left: 8%;
 }
 
-#idTarjetas{
+
+
+.btn_enviar{
+    padding: 2%;
+    border-radius: 10%;
+    background-color: cadetblue;
+    color: cornsilk;
+    margin-right: 2%;
+    cursor: pointer;
+    border: 1px solid #39c;
+}
+
+.btn_enviar:hover{
+    background-color: rgb(52, 95, 97);
+}
+
+.btn_crear{
+    padding: 2%;
+    border-radius: 10%;
+    background-color: rgb(240, 150, 34);
+    color: cornsilk;
+   cursor: pointer;
+   border: 1px solid rgb(204, 189, 51);
+}
+
+.btn_crear:hover{
+    background-color: rgb(128, 82, 22);
+}
+
+.input_box{
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #39c;
+    
+    outline: none;
+    background-color: #dfe;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2px;
+    font-family : inherit;
+    font-size   : 100%;
+    width: 300px;
+}
+
+.imput_posi{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img_temp{
+    width: 50%;
+    border-radius: 5%;
+    margin-top: 2%;
+}
+
+.crear_card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1%;
+    border-radius: 5%;
+    background-color: #137b95;
+    
+    border: 1px solid rgb(39, 114, 151);
+}
+
+.img_card{
+    border-radius: 5%;
+    margin-bottom: 2%;
+}
+
+.card_text{
+    color: #dfe;
+}
+
+.btn_refrescar{
+    color: #dfe;
+    text-decoration: none;
+    background-color: #cf3c3c;
+    padding: 2%;
+    border-radius: 5%;
+}
+
+.btn_refrescar:hover{
+    color: #dfe;
+    text-decoration: none;
+    background-color: #7e2727;
+    padding: 2%;
+    border-radius: 5%;
+}
+
+.btn_copiar{
+    color: #dfe;
+    text-decoration: none;
+    background-color: #cf7e3c;
+    padding: 2%;
+    border-radius: 5%;
+    
+    cursor: pointer;
+}
+
+.btn_copiar:hover{
+    color: #dfe;
+    text-decoration: none;
+    background-color: #5d3a1d;
+    padding: 2%;
+    border-radius: 5%;
+    
+    cursor: pointer;
 }
